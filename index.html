@@ -42,10 +42,10 @@
   <header>
     <div class="head">
       <a class="brand" href="#"><img src="tippart-logo.png" alt="tippart"></a>
-      <div class="search"><input aria-label="חיפוש קורס" placeholder="מה תרצי ללמוד היום?"><a href="#courses" aria-label="חיפוש">⌕</a></div>
-      <div class="actions"><a class="login" href="#restore">כניסה / הרשמה</a><a class="sell" href="#sell">מכירת קורס</a><span class="cart" aria-label="סל קניות">🛒</span></div>
+      <div class="search"><input aria-label="חיפוש קורס" placeholder="מה תרצי ללמוד היום?"><a href="courses.html" aria-label="חיפוש">⌕</a></div>
+      <div class="actions"><a class="login" href="account.html">כניסה / הרשמה</a><a class="sell" href="sell.html">מכירת קורס</a><a class="cart" href="cart.html" aria-label="סל קניות">🛒 <small data-cart-count>0</small></a></div>
     </div>
-    <nav><div class="nav-inner"><a href="#">דף הבית</a><a href="#courses">כל הקורסים</a><a href="#categories">עיצוב גרפי</a><a href="#categories">צילום</a><a href="#categories">מוזיקה</a><a href="#sell">למכירת קורס</a></div></nav>
+    <nav><div class="nav-inner"><a href="#">דף הבית</a><a href="courses.html">כל הקורסים</a><a href="courses.html#design">עיצוב גרפי</a><a href="courses.html#photo">צילום</a><a href="courses.html#music">מוזיקה</a><a href="sell.html">למכירת קורס</a><a href="about.html">אודות</a><a href="contact.html">צור קשר</a></div></nav>
   </header>
 
   <main>
@@ -55,37 +55,38 @@
           <p class="eyebrow">שוק קורסים וירטואלי</p>
           <h1>ללמוד. ללמד. להצליח.</h1>
           <p>להתפרנס מהידע שלך וללמוד מהיוצרות הטובות בציבור החרדי מכל העולם.</p>
-          <div class="hero-buttons"><a class="primary" href="#courses">לכל הקורסים</a><a class="secondary" href="#sell">יש לי ידע למכור</a></div>
+          <div class="hero-buttons"><a class="primary" href="courses.html">לכל הקורסים</a><a class="secondary" href="sell.html">יש לי ידע למכור</a></div>
         </div>
         <div class="hero-visual"><div class="hero-stamp"><strong>ידע שעובר</strong><span>מיוצרת ליוצרת, בקצב שלך ומכל מקום.</span></div></div>
       </div>
     </section>
 
     <section class="categories" id="categories" aria-label="קטגוריות">
-      <a class="category cat-music" href="#courses"><div><span>לגלות וליצור</span><h3>מוזיקה</h3></div><b>←</b></a>
-      <a class="category cat-design" href="#courses"><div><span>להפוך רעיון למותג</span><h3>עיצוב גרפי</h3></div><b>←</b></a>
-      <a class="category cat-photo" href="#courses"><div><span>לצלם ולעבד</span><h3>צילום</h3></div><b>←</b></a>
+      <a class="category cat-music" href="courses.html#music"><div><span>לגלות וליצור</span><h3>מוזיקה</h3></div><b>←</b></a>
+      <a class="category cat-design" href="courses.html#design"><div><span>להפוך רעיון למותג</span><h3>עיצוב גרפי</h3></div><b>←</b></a>
+      <a class="category cat-photo" href="courses.html#photo"><div><span>לצלם ולעבד</span><h3>צילום</h3></div><b>←</b></a>
     </section>
 
     <section class="market" id="courses">
-      <div class="section-head"><div><p>מהגיבוי המקורי</p><h2>קורסים ומוצרים דיגיטליים</h2></div><a href="#restore">לצפייה בכל השוק ←</a></div>
+      <div class="section-head"><div><p>מהגיבוי המקורי</p><h2>קורסים ומוצרים דיגיטליים</h2></div><a href="courses.html">לצפייה בכל השוק ←</a></div>
       <div class="course-grid">
         <article class="course">
           <div class="course-image logo"><img src="course-logo.jpg" alt="דוגמת לוגו חוי ברנד"><span class="badge">עיצוב גרפי</span></div>
-          <div class="course-body"><div class="meta"><span>מאת שושי</span><span>קורס דיגיטלי</span></div><h3>קורס יצירת לוגו מא׳ עד ת׳</h3><p class="course-desc">לימוד הכנת לוגו לעסק שלך בצורה קלילה ומפורטת.</p><div class="course-bottom"><span class="price">₪400</span><span class="view">לפרטי הקורס ←</span></div></div>
+          <div class="course-body"><div class="meta"><span>מאת שושי</span><span>קורס דיגיטלי</span></div><h3>קורס יצירת לוגו מא׳ עד ת׳</h3><p class="course-desc">לימוד הכנת לוגו לעסק שלך בצורה קלילה ומפורטת.</p><div class="course-bottom"><span class="price">₪400</span><a class="view" href="course-logo.html">לפרטי הקורס ←</a></div></div>
         </article>
         <article class="course">
           <div class="course-image"><img src="course-retouch.jpg" alt="דוגמת לפני ואחרי של ריטוש תמונה"><span class="badge">צילום ועיבוד</span></div>
-          <div class="course-body"><div class="meta"><span>מוצר דיגיטלי</span><span>הורדה מיידית</span></div><h3>אקשן לריטוש פנים</h3><p class="course-desc">אקשן מדהים לעיבוד וריטוש תמונה, מתוך המוצר המקורי באתר.</p><div class="course-bottom"><span class="price">₪5</span><span class="view">לפרטי המוצר ←</span></div></div>
+          <div class="course-body"><div class="meta"><span>מוצר דיגיטלי</span><span>הורדה מיידית</span></div><h3>אקשן לריטוש פנים</h3><p class="course-desc">אקשן מדהים לעיבוד וריטוש תמונה, מתוך המוצר המקורי באתר.</p><div class="course-bottom"><span class="price">₪5</span><a class="view" href="course-retouch.html">לפרטי המוצר ←</a></div></div>
         </article>
         <div class="coming"><span class="plus">+</span><h3>השוק עוד מתמלא</h3><p>בגיבוי נמצאו שני פריטים שפורסמו בפועל. יתר הקורסים, המרצות והקטגוריות יחזרו לאחר שחזור מערכת WordPress המלאה.</p></div>
       </div>
     </section>
 
-    <section class="seller" id="sell"><div class="seller-inner"><div><p class="eyebrow">הידע שלך שווה</p><h2>יש לך מה ללמד? תעלי קורס ותרוויחי.</h2><p>טיפארט נבנה כשוק שבו יוצרות יכולות להפוך ניסיון, יצירה ומומחיות לקורס דיגיטלי ולהגיע לקהל מכל מקום.</p></div><a class="primary" href="#restore">אני רוצה למכור קורס</a></div></section>
+    <section class="seller" id="sell"><div class="seller-inner"><div><p class="eyebrow">הידע שלך שווה</p><h2>יש לך מה ללמד? תעלי קורס ותרוויחי.</h2><p>טיפארט נבנה כשוק שבו יוצרות יכולות להפוך ניסיון, יצירה ומומחיות לקורס דיגיטלי ולהגיע לקהל מכל מקום.</p></div><a class="primary" href="sell.html">אני רוצה למכור קורס</a></div></section>
     <div class="restore-note" id="restore">החנות, ההרשמה והתשלום עדיין סגורים בזמן השחזור, כדי לשמור על פרטיות המשתמשים ועל אבטחת המידע.</div>
   </main>
 
   <footer><div class="footer-inner"><img src="tippart-logo.png" alt="tippart"><p>© tippart · שוק קורסים וירטואלי · תצוגת שחזור זמנית</p></div></footer>
+  <script src="app.js"></script>
 </body>
 </html>
